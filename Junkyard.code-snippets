@@ -1,0 +1,96 @@
+Junkyard
+<!--This is the first attempt at a multi panel portoflio that expands and plays musics on hover. Restarting-->
+         
+         <div class="portfolliosection"
+            <div class="container m-5">
+                <div class="row pb-0">
+                  <div class="col-6 bg-dark text-light">
+                  <h1>The Yellow Tape</h1>
+                   <audio controls>
+                      <source src="horse.ogg" type="audio/ogg">
+                      <source src="horse.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>The Yellow was crafted between 2015 and 2018, Alexander's 1st attempt at a true release.</p>
+                  </div>
+                  <div class="col-6 bg-secondary">
+                    <audio controls>
+                      <source src="yellowtape.wav" type="audio/wav">
+                      <source src="yellowtape.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio></div>
+                  </>
+                <div class="row pb-4">
+                  <div class="col-12 bg-dark text-light">                   <audio controls>
+                      <source src="horse.ogg" type="audio/ogg">
+                      <source src="horse.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                  </audio>
+                </div>
+                </div>
+            </div>
+              </div>
+          </body>
+
+
+
+          <div class="portfsection container-fluid">
+            <div class="row md-5 align-items-center">
+              <div class="portfpanel col-3 text-light"> <!--PORTFOLIO PANEL 2-->
+                  <h1>The Yellow Tape</h1>
+                    <audio autoplay>
+                      <source src="yellowtape.wav" type="audio/wav">
+                      <source src="yellowtape.mp3" type="audio/mpeg">
+                    </audio>
+                      <div class="paneltext">The Yellow Tape was created between 2016 & 2019 during the beginning of my 
+                    6 month adventure in the City of Huntsville, TX. The tape is full of samples 
+                    pulled from the songs that played on the local radio station and things seen 
+                    on TV during the time. All mixed together, it presents as one track 
+                      </div>
+                </div>
+              <div class="portfpanel col-3 text-light"> <!--PORTFOLIO PANEL 2-->
+                  <h1>The Lime Tape</h1>
+                    <audio autoplay muted>
+                      <source src="yellowtape.wav" type="audio/wav">
+                      <source src="yellowtape.mp3" type="audio/mpeg">
+                    </audio>
+                      <div class="paneltext">The Yellow Tape was created between 2016 & 2019 during the beginning of my 
+                    6 month adventure in the City of Huntsville, TX. The tape is full of samples 
+                    pulled from the songs that played on the local radio station and things seen 
+                    on TV during the time. All mixed together, it presents as one track 
+                      </div>
+                </div>
+              <div class="portfpanel col-3 text-light"> <!--PORTFOLIO PANEL 2-->
+                  <h1>MIRA!</h1>
+                    <audio autoplay muted>
+                      <source src="yellowtape.wav" type="audio/wav">
+                      <source src="yellowtape.mp3" type="audio/mpeg">
+                    </audio>
+                      <div class="paneltext">MIRA! is a collab between Alexander and visual artist S. Alexander created 
+                        music based on different illustrations created by S. The music of MIRA! accoumponied the pieces 
+                        throughout there lifecycle including gallery installments and social media post. 
+                      </div>
+                </div>
+              </div>
+              <div class="row md-5 align-items-center">
+                <div class="portfpanel col-6">
+                  <audio autoplay muted>
+                    <source src="yellowtape.wav" type="audio/wav"><div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+                    <source src="yellowtape.wav" type="audio/wav">
+                  </audio>
+                </div>
+              </div>
+          </div>
+          <div class="grapevinepanel">
+          <h1>SIGN UP FOR THE GRAPEVINE, ALEXANDERS NEWLETTE</h1>
+
+          </div>

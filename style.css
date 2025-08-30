@@ -1,0 +1,145 @@
+
+
+table {
+    border: 3px solid;
+    background-color: darkseagreen;
+}
+
+.porfsection {
+    align-items: center;
+}
+
+.portfpanel {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    display: block;
+}
+
+.portfpanel:hover {
+    transform: scale(125%);
+    background-color: yellow;
+    text-decoration-color: white;
+    display: block;
+}
+
+.portfpanel:focus{
+    background-color: aqua;
+}
+
+.paneltext {
+    padding: 20px; 
+}
+
+h1 {
+ font-size: 50px;
+}
+
+.homepanel {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+.headimg {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}
+
+.panel {
+    width: 250px;
+    height: 900px;
+    background-color: rgb(182, 232, 182);
+}
+
+.panel:active {
+    background-color: beige;
+    font-size: 25px;
+}
+
+.card {
+    font-size: 20px;
+    transition: font-size .5s, background-color 1.5s, display .3s;
+}
+
+.card-title {
+    color: palevioletred;
+    font-size: 50px;
+    transition: color 1.5s, font-size 2s;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.card-title:hover {
+    font-size: 55px;
+}
+
+@keyframes colorchange {
+    from{color: black}
+    to{color: palevioletred}
+}
+
+.card-text {
+    color: black;
+}
+.card-body {
+    height: 500px;
+    transition: font-size .5s, background-color 1.5s, display .3s;
+}
+
+.card-body:hover{
+    background-color: palevioletred;
+    font-size: 25px;
+    display: block;
+}
+
+.grapevinepanel {
+    background-color: gray
+}
+
+.grapevinepanel:hover {
+    font-size: 20px;
+    transition: font-size 2s;
+    transition-timing-function: ease-in-out;
+}
+
+form-label {
+    background-color: black;
+    color: beige;
+}
+
+.sectionlabel{
+    transition: color .75s;
+    transition-timing-function: ease-in-out;
+}
+
+.sectionlabel:hover {
+    text-shadow: 50px;
+    color: palevioletred;
+}
+
+td:hover {
+    background-color: palevioletred;
+}
+
+.floatpanel {
+    width: 100%;
+    color: palevioletred;
+    justify-content: center;
+}
+
+.audioplayer {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
